@@ -137,6 +137,8 @@ while getopts $ARGS arg; do
           echo "Error: Unknown platform version, try either 4 or 5." >&2
           exit 1
       esac
+      echo "Success!"
+      exit 0
       ;;
 
     v) # Verbose mode.
